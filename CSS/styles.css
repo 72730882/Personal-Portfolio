@@ -454,6 +454,18 @@ header .fa-solid{
     display: none;
 }
 @media only screen and (max-width:850px){
+   .navbar {
+        /* Styles for mobile navigation */
+        position: fixed;
+        top: 0;
+        right: -100px; /* Off-screen initially */
+        background-color: rgb(111, 80, 212);
+        width: 100px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
     body{
         margin: 0;
         padding: 0;
